@@ -1,0 +1,46 @@
+/* Card Component CSS */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    width: 20%;
+    height:10%;
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto; /* Make the image responsive */
+    border-radius: 8px 8px 0 0; /* Rounded corners only on the top */
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    color: #666;
+  }
+  
+  /* Optional hover effect */
+  .card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .card {
+      width: 100%; /* Cards take full width on small screens */
+    }
+  }
+  
